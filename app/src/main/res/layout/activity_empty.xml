@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e53935"
+   >
+    <ImageView
+        android:id="@+id/no_internet_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/rdxshop_logo"
+        />
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/no_internet_image"
+        android:text="@string/no_internet_connection"/>
+    <TextView
+        android:id="@+id/empty_view_text_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:maxLines="2"
+        android:layout_below="@+id/empty_view"
+        android:text="@string/no_internet_connection_two"/>
+    <Button
+        android:id="@+id/re_load_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_view_text_two"
+        android:background="@drawable/reload_button"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:text="@string/reload_button"/>
+</RelativeLayout>
+
+
+
+
+
+
+

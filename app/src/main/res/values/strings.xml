@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RDXshop</string>
+    <string name="no_internet_connection">No internet connection&#8230;</string>
+    <string name="no_internet_connection_two">Oops&#8230; it seems you can\'t connect to our network, check your internet connection.</string>
+    <string name="reload_button">Reload page</string>
+    <string name="signin_here">Login with RDXshop</string>
+    <string name="signin_here_two">Login</string>
+    <string name="signin_here_subheading">Enter email:</string>
+    <string name="enter_your_email">Please enter your email*</string>
+    <string name="enter_your_password">Please enter your password*</string>
+    <string name="sign_in">Login</string>
+    <string name="or_social">Or</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="bt_google_signin">Login Google</string>
+    <string name="bt_facebook_signin">Login with Facebook</string>
+    <string name="bt_continue_as_guest">Continue as Guest</string>
+    <string name="or_social_login">OR CONNECT WITH</string>
+    <string name="or_login_with_social">&#8230;or login with:</string>
+    <string name="facebook_application_id" translatable="false">598791960565392</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb598791960565392</string>
+</resources>
+
+
+
